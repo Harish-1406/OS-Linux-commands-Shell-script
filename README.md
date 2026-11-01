@@ -52,13 +52,19 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+ <img width="525" height="50" alt="image" src="https://github.com/user-attachments/assets/16b1e565-9aa7-47e8-8a37-a540c0e22412" />
+
 comm file1 file2
  ## OUTPUT
+
+<img width="753" height="277" alt="image" src="https://github.com/user-attachments/assets/952d700a-5a57-4e77-9d91-ef1b786174ff" />
 
  
 diff file1 file2
 ## OUTPUT
+
+<img width="603" height="252" alt="image" src="https://github.com/user-attachments/assets/c743f3cf-a9a6-4a8e-8b5c-19dd7d2fea1a" />
 
 
 #Filters
@@ -83,16 +89,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="562" height="87" alt="image" src="https://github.com/user-attachments/assets/c46dc4d2-3458-4693-8b63-b0db85c12711" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="596" height="115" alt="image" src="https://github.com/user-attachments/assets/625dbab7-8b80-43f9-aa74-68ae1f216737" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+<img width="612" height="116" alt="image" src="https://github.com/user-attachments/assets/958c9198-f857-445b-91eb-31214dc0a74c" />
 
 
 cat < newfile 
